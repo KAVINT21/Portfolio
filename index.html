@@ -1,0 +1,1236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Kavin Thangavel Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+
+<style>
+
+/*======================================
+//--//-->   ABOUT
+======================================*/
+
+.about-mf .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about-mf .about-img {
+  margin-bottom: 2rem;
+}
+
+.about-mf .about-img img {
+  margin-left: 10px;
+}
+
+
+.skill-mf .progress {
+  /* background-color: #cde1f8; */
+  margin: .5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: .7rem;
+}
+
+.skill-mf .progress .progress-bar {
+  height: .7rem;
+  background-color: #ffbd39;
+}
+
+
+/* Animation styles */
+#typing-animation {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(20, end) infinite;
+}
+
+#typing-animation:before {
+  content: "";
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #ccc;
+  animation: typing-cursor 0.5s ease-in-out infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing-cursor {
+  from {
+    width: 5px;
+  }
+  to {
+    width: 0;
+  }
+}
+
+
+/* project image zoom effect */
+
+.zoom-effect {
+  overflow: hidden;
+  transition: transform 0.3s ease-out;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+
+.service-icon{
+	
+	padding: 2rem;
+	display:flex;
+	align-items: center;
+	font-size: 3rem;
+	position: relative;
+	color: yellow;
+	padding-left: 120px;
+}
+
+.section-services .service-box{
+	text-align:center;
+}
+.section-services{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.service-btn{
+	width:auto;
+	justify-content: center;
+	background:#ffbd39;
+}
+.service-box:hover{
+	transform: translate(-.7rem);
+}
+
+.portfolio-gallery{
+	display:grid;
+	grid-template-columns:repeat(auto-fill,minmax(270px,1fr));
+	gap:2rem;
+
+}
+.port-box{
+	position: relative;
+	border-radius: 15px;
+	overflow: hidden;
+	background: #292e33;
+	display:flex;
+	grid-template-rows: 1fr auto;
+	align-items: center;
+	border: 2px solid yellow;
+	box-shadow: #ffbd39;
+
+}
+
+.port-image{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width:100%;
+
+}
+
+.port-image img{
+	width:100%;
+	opacity:.5s;
+	height:100%;
+	transition: .5s;
+
+}
+
+.port-content{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	/* background: linear-gradient(rgba(0,0,0,.2),rgb(234, 255, 0)); */
+	background: linear-gradient(rgba(0,0,0,.2),rgb(255,255,102));
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	transition: 0.5s;
+	padding:0.2rem;
+}
+
+.port-box:hover .port-content{
+	opacity: 1;
+}
+
+.port-box:hover .port-image img{
+	transform: scale(1.1);
+}
+
+.port-content h3{
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+.port-content p{
+	font-size: .8rem;
+	margin: 5px 0 15px 0;
+
+
+}
+
+.port-content a{
+	background: #fff;
+	border-radius: 50%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #fff;
+	outline: 2px solid #fff;
+
+}
+
+.port-contenta i{
+	font-size: 1.3rem;
+	color: #ffbd39;
+}
+
+
+
+</style>
+
+
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	  
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Kavin Thangavel</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Experience</span></a></li>
+			  <li class="nav-item"><a href="#achievement" class="nav-link"><span>Achievements</span></a></li>
+			  <li class="nav-item"><a href="#certification" class="nav-link"><span>Certifications</span></a></li>
+	          <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+			<li class="nav-item"><a href="#publications" class="nav-link"><span>Publications</span></a></li>
+	          <!-- <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li> -->
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	  <section id="home-section" class="hero">
+		  <div class="home-slider  owl-carousel">
+	       <div class="slider-item ">
+	      	<div class="overlay"></div>
+	         <div class="container">
+	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/kavin3.png);">
+	          	 <div class="overlay"></div>
+	          	</div>
+		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+		          	<div class="text">
+		          		<span class="subheading">Hello!</span>
+			            <h1 class="mb-4 mt-3">I'm <span>Kavin Thangavel</span></h1>
+
+						<!-- Element to contain animated typing -->
+						<span id="typing-animation"></span>
+
+						<script>
+
+						// Initialize the typing animation
+						const typingAnimationElement = document.getElementById('typing-animation');
+
+						// Create an array of typing text
+						const typingTexts = [
+						'ML Engineer  ',
+						'React Developer  ',
+						'Frontend App Developer   ',
+						'NLP Engineer   '
+						];
+
+						// Create a function to display the typing animation for a given text
+						function playTypingAnimation(text) {
+						// Loop through each character and add it to the element
+						for (let i = 0; i < text.length; i++) {
+							setTimeout(() => {
+							typingAnimationElement.textContent += text[i];
+							}, i * 200); // Increase the delay to slow down the typing animation
+						}
+
+						// Once the animation is complete, reset the text and start over
+						setTimeout(() => {
+							typingAnimationElement.textContent = '';
+							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+						}, text.length * 200);
+						}
+
+						// Start the typing animation loop
+						playTypingAnimation(typingTexts[0]);
+
+						</script>
+
+						<br>
+						<br>
+			            <h2>A Student at CIT</h2>
+						<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
+						<!-- <br> -->
+			            <p><a href="https://github.com/KAVINT21/" class="btn btn-primary py-3 px-4">My works</a> 
+							</p>
+		            </div>
+		          </div>
+	        	</div>
+	        </div>
+	      </div>
+		</div>
+    </section>
+
+
+
+    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+    	<div class="container">
+			<div class="row">
+				<div class="row d-flex align-items-stretch">
+				<!-- <div class="row d-flex"> -->
+					<div class="col-md-6 col-lg-5 d-flex">
+						<div class="img-about img d-flex align-items-stretch">
+							<div class="overlay">
+								<div class="row">
+									<div class="col-sm-6 col-md-5">
+									  <div class="about-img">
+										<img src="images/me.png" class="img-fluid rounded b-shadow-a" alt="">
+									  </div>
+									</div>
+									<!-- Details next to profile image -->
+									<div class="col-sm-6 col-md-7">
+									  <div class="about-info">
+										<p><span class="title-s">Name: </span> <span>Kavin Thangavel</span></p>
+										<p><span class="title-s">Role: </span> <span>Student</span></p>
+										<p><span class="title-s">Experience: </span> <span>6 Months as an Intern</span></p>
+										<p><span class="title-s">Address: </span> <span>Coimbatore, India</span></p>
+									  </div>
+									</div>
+								  </div>
+
+								<div class="skill-mf">
+									<p class="title-s">Skills</p>
+									<span>SQL</span> <span class="pull-right">80%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>PYTHON</span> <span class="pull-right">95%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>C++,Java,C,R</span> <span class="pull-right">80%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Statistical Analysis</span> <span class="pull-right">85%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Machine Learning</span> <span class="pull-right">90%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									<span>Web Development</span> <span class="pull-right">80%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									<span>App Development</span> <span class="pull-right">80%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+						<div class="row justify-content-start pb-3">
+							<div class="col-md-12 heading-section ftco-animate">
+								
+								<h1 class="big">About</h1>
+								<h2 class="mb-4">About Me</h2>
+								
+								<p>I'm a student at Coimbatore Institute of Technology, specializing in Artificial Intelligence and Data Science.
+								Proficient in ML, data analysis, and app/web development, I'm driven to innovate and solve challenges. Eager to
+								contribute to impactful projects and expand my expertise in AI and data science. Explore my portfolio to see my work in
+								action.</p>
+								<ul class="about-info mt-4 px-md-0 px-2">
+									<li class="d-flex"><span>Profile:</span> <span>Machine Learning &amp; Data Analytics</span></li>
+									<li class="d-flex"><span>Domain:</span> <span>AI, NLP, Gen AI &amp; Computer Vision</span></li>
+									<li class="d-flex"><span>Education:</span> <span>Bachelor of Technology</span></li>
+									<li class="d-flex"><span>Language:</span> <span>English, Tamil</span></li>
+									<li class="d-flex"><span>Skills:</span> <span>Flutter,React Native,MySQL,HTML,CSS,R Basics,Haskell,C,C++,Python &amp; OpenCV</span></li>
+									<li class="d-flex"><span>Interest:</span> <span>Traveling,Learning</span></li>
+									
+								</ul>
+							</div>
+						</div>
+
+
+						<div class="counter-wrap ftco-animate d-flex mt-md-3">
+							<div class="text">
+								<p class="mb-4">
+									<span class="number" data-number="5">0</span> <span>+</span>
+									<span>&nbsp; Projects completed</span>
+								</p>
+								<p><a href="https://www.linkedin.com/in/kavin-t-945181225/" class="btn btn-primary py-3 px-3">LinkedIn</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </section>
+
+
+
+	
+    <section class="ftco-section ftco-no-pb" id="resume-section">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Experience</h1>
+            <h2 class="mb-4">Experience</h2>
+            <p>I have gained invaluable experience as an intern for six months, where I served as an NLP Engineer and ML expert, honing
+			my skills in natural language processing and machine learning while contributing to real-world projects. Proven expertise in data science, statistical analysis, machine learning algorithms and project management.</p>
+          </div>
+        </div>
+
+		<div class="row">
+			<h1 class="big-4">Internships</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+		<div class="row">
+				
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">May 2023-Dec 2023</span>
+						<h2>NLP and ML Engineer</h2>
+						<span class="position">Quintessence Business Solutions</span>
+						<p class="mt-4">Quintessence is a medical billing and coding company that offers end-to-end RCM services, including AR, and denial
+						management, to different healthcare service providers.
+							<ul>
+								<li>Performed in-depth medical data analysis.Implemented K-means and neural network models, generating confidence scores, and fine-tuning models for improved
+								accuracy.</li>
+								<li>Performed Pivotal role in model testing and deployment, successfully predicting disease types with high accuracy.</li>
+								<li>Gained hands-on experience in NLP, ML, and data science, contributing to advancements in healthcare technology.</li>
+							</ul>
+						</p>
+						<div class="row justify-content-center mt-5">
+							<div class="btn-box service-btn">
+								<a href="https://drive.google.com/file/d/1-SQ0_Y4JFxhnMgDhM5V_MaETP65e7h1G/view?usp=sharing" class="btn">View More..</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<!-- <span class="date">Jan 2024-</span> -->
+						<h2>Deep Learning Intern</h2>
+						<span class="position">MagnusVista</span>
+						<p class="mt-4">MagnusVista Technologies is a highly focused technology company that builds on the ability of Microsoft server products
+						like SharePoint Server and Microsoft Dynamics to address the needs of businesses.
+						<ul>
+							<li>Collected various data from the websites and generated various types of bills for Data Collection.
+								</li>
+							<li>Developed a user-friendly interface using Streamlit for a Text Extraction Model.</li>
+							<li>Implemented Named Entity Recognition(NER Model) to extract the Contents.</li>
+							<li>
+								Integrated data visualizations to provide insights into bill classifications.
+								Implemented a model using OCR to extract the information from the super market bills.
+
+								</li>
+				
+						</ul>
+						</p>
+						<div class="row justify-content-center mt-5">
+							<div class="btn-box service-btn">
+								<a href="https://www.magnusvista.com/MagnusVistaTechnology/Home.html"
+									class="btn">View More..</a>
+							</div>
+						</div>
+					</div>
+				
+				</div>
+
+			</div>
+
+		<br>
+		<br>
+
+		<div class="row">
+			<h1 class="big-4">Education</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+			<div class="row">
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2021-2025</span>
+    					<h2>B.Tech Artificial Intelligence and Data Science</h2>
+    					<span class="position">Coimbatore Institute of Technology</span>
+    					<p class="mt-4">CGPA: 9.61.</p>
+    				</div>
+    			</div>
+
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2020-2021</span>
+    					<h2>Higher Secondary School</h2>
+    					<span class="position">Vani Vidyalaya</span>
+    					<p class="mt-4">Percentage: 96%</p>
+    				</div>
+				</div>
+    		</div>
+
+			<section class="ftco-section" id="achievement">
+				<div class="container">
+					<div class="row justify-content-center mb-5 pb-5">
+						<div class="col-md-7 heading-section text-center ftco-animate">
+							<h1 class="big big-2">Achievements</h1>
+							<h2 class="mb-4">Achievements</h2>
+							<p>These accomplishments serve as milestones in my personal and professional development, and they inspire me to pursue new
+							opportunities.
+							</p>
+						</div>
+					</div>
+
+					<div class="portfolio-gallery">
+						<div class="port-box">
+							<div class="port-image">
+								<img src="images/1.jpg" alt="">
+							</div>
+							<div class="port-content">
+								<h3>Geek Rangers IoT First Place</h3>
+								<p>I am proud to highlight my achievement of winning first place in the Geek Rangers IoT project presentation
+								held at KPR College.</p>
+								<a href="https://www.linkedin.com/posts/kavin-t-945181225_geek-rangers-iot-activity-7038028847212085248-vgVM?utm_source=share&utm_medium=member_android"><i class="bx bx-link-external"></i></a>							
+							</div>
+						</div>
+
+						<div class="port-box">
+							<div class="port-image">
+								<img src="images/2.jpg" alt="">
+							</div>
+							<div class="port-content">
+								<h3>Arcathon Second Prize</h3>
+								<p>Secured Second Prize in Earc Community's Arcathon for AI Traffic System Demonstration at Bannari Amman Institute of
+								Technology.</p>
+								<a href="https://www.linkedin.com/posts/kavin-t-945181225_ai-traffic-system-activity-7038031767219437568-R7dS?utm_source=share&utm_medium=member_desktop"><i class="bx bx-link-external"></i></a>
+							</div>
+						</div>
+
+						<div class="port-box">
+							<div class="port-image">
+								<img src="images/3.jpg" alt="">
+							</div>
+							<div class="port-content">
+								<h3>Best Content Writer</h3>
+								<p>I've been awarded the 2nd prize for Best Content Writer! 🖋️🌟 in Pixels magazine for the article named The Alpha and The Quanta Heist.</p>
+								<a href="images/geek.png"><i class="bx bx-link-external"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</section>
+			<!-- <section class="ftco-section ftco-no-pb" id="project-sections">
+				<div class="container">
+
+			<div class="row">
+				<h1 class="big-4">Certifications</h1>
+				<div class="underline"></div>
+			</div>
+			<br>
+
+			<div class="row">
+				<div class="section-services">
+				
+				<div class="col-md-4">
+					<div class="service-box">
+					<div class="resume-wrap ftco-animate">
+						<i class="bx bxs-layer service-icon"></i>
+						
+						<h2 style="text-align: center;">Foundational Level Certification at IITM</h2>
+						<p class="mt-4">
+						This comprehensive program comprised eight courses, covering essential topics such as Mathematics (Math 1 and Math 2),
+						Statistics (Statistics 1 and Statistics 2), English (English 1 and English 2), Computational Thinking, and
+						Programming in Python.</p>
+						<div class="row justify-content-center mt-5">
+							<div class="btn-box service-btn">
+								<a href="https://drive.google.com/file/d/1npWCEKdwL2lA_LEegVU7ricYC82QoGfp/view?usp=sharing" class="btn">View More..</a>
+							</div>
+						</div>
+					</div>
+					</div>
+				
+			</div>
+			<div class="col-md-4">
+				<div class="service-box">
+				<div class="resume-wrap ftco-animate">
+					<i class="bx bx-desktop service-icon"></i>
+			
+					<h2 style="text-align: center;">Python for Data Science</h2>
+					<p class="mt-4">I successfully completed WhiteHat Jr's Python for Data Science course, gaining skills in Python programming, data
+					analysis, visualization, and machine learning. Through hands-on projects, I gained experience on real world projects.</p>
+					<div class="row justify-content-center mt-5">
+						<div class="btn-box service-btn">
+							<a href="#" class="btn">View More..</a>
+						</div>
+					</div>
+				</div>
+			
+			</div>
+			</div>
+			<div class="col-md-4">
+				<div class="service-box">
+				<div class="resume-wrap ftco-animate">
+					<i class="bx bxs-certification service-icon"></i>
+					<h2 style="text-align: center;">Intro to Haskell Programming</h2>
+					<p class="mt-4">This course in NPTEL provided me with a solid foundation in Haskell, a functional programming language known for its elegant and
+					concise syntax. Through engaging lectures and hands-on assignments, I gained proficiency in functional programming.
+	</p> <div class="row justify-content-center mt-5">
+		<div class="btn-box service-btn">
+			<a href="https://drive.google.com/file/d/11FxHKEb3acEPDigSzAy-wOcppEuaaHbk/view?usp=sharing" class="btn">View More..</a>
+		</div>
+	</div>
+				</div>
+			</div>
+			
+			</div>
+
+    		
+
+			</div>
+    	</div>
+		<div class="row">
+			<div class="section-services">
+		<div class="col-md-6">
+			<div class="service-box">
+				<div class="resume-wrap ftco-animate">
+					<i class="bx bxs-layer service-icon"></i>
+		
+					<h2 style="text-align: center;">Programming in Modern C++</h2>
+					<p class="mt-4">
+						This course in NPTEL equipped me with a comprehensive understanding of modern C++ programming techniques, including
+						object-oriented programming principles, template metaprogramming, and the use of standard library features</p>
+					<div class="row justify-content-center mt-5">
+						<div class="btn-box service-btn">
+							<a href="https://drive.google.com/file/d/1v-elOOxuEpuz3sg2xzf_MI6ZvEWT8H8z/view?usp=sharing" class="btn">View More..</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		</div>
+
+		<div class="col-md-6">
+			<div class="service-box">
+				<div class="resume-wrap ftco-animate">
+					<i class="bx bxs-certification service-icon"></i>
+		
+					<h2 style="text-align: center;">Google Cloud Computing Foundations</h2>
+					<p class="mt-4">
+						This course provided me with a comprehensive introduction to cloud computing concepts and the Google Cloud Platform
+						(GCP) ecosystem and helped me understanding storage,virtualization and networking </p>
+					<div class="row justify-content-center mt-5">
+						<div class="btn-box service-btn">
+							<a href="https://drive.google.com/file/d/1AC8TY77fEFrncTj74cyg5B_nrkx7PPlT/view?usp=sharing" class="btn">View More..</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		</div>
+			</div>
+		</div>
+		</div>
+			</section> -->
+
+		<section class="ftco-section ftco-no-pb" id="certification">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h1 class="big-4 text-center">Certifications</h1>
+						<div class="underline"></div>
+					</div>
+				</div>
+				<br>
+		
+				<div class="row">
+					<div class="col-md-6 col-lg-4">
+						<div class="service-box">
+							<div class="resume-wrap ftco-animate">
+								<i class="bx bxs-layer service-icon"></i>
+		
+								<h2 style="text-align: center;">Foundational Level Certification at IITM</h2>
+								<p class="mt-4">This comprehensive program comprised eight courses, covering essential topics such as Mathematics (Math 1 and Math 2),
+								Statistics (Statistics 1 and Statistics 2), English (English 1 and English 2), Computational Thinking, and
+								Programming in Python.</p>
+								<div class="row justify-content-center mt-5">
+									<div class="btn-box service-btn">
+										<a href="https://drive.google.com/file/d/1npWCEKdwL2lA_LEegVU7ricYC82QoGfp/view?usp=sharing"
+											class="btn">View More..</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+		
+					<div class="col-md-6 col-lg-4">
+						<div class="service-box">
+							<div class="resume-wrap ftco-animate">
+								<i class="bx bx-desktop service-icon"></i>
+		
+								<h2 style="text-align: center;">Python for Data Science</h2>
+								<p class="mt-4">I successfully completed WhiteHat Jr's Python for Data Science course, gaining skills in Python
+									programming, data
+									analysis, visualization, and machine learning. Through hands-on projects, I gained experience on real world
+									projects.</p>
+
+								<div class="row justify-content-center mt-5">
+									<div class="btn-box service-btn">
+										<a href="https://drive.google.com/file/d/12gCsTx6CnXsysJJRPJM_SGnwtXLrnjEh/view?usp=sharing"
+											class="btn">View More..</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+		
+					<div class="col-md-6 col-lg-4">
+						<div class="service-box">
+							<div class="resume-wrap ftco-animate">
+								<i class="bx bxs-certification service-icon"></i>
+								<h2 style="text-align: center;">Intro to Haskell Programming</h2>
+								<p class="mt-4">This course in NPTEL provided me with a solid foundation in Haskell, a functional programming language
+									known for its elegant and
+									concise syntax. Through engaging lectures and hands-on assignments, I gained proficiency in functional programming.
+								</p>
+								<div class="row justify-content-center mt-5">
+									<div class="btn-box service-btn">
+										<a href="https://drive.google.com/file/d/11FxHKEb3acEPDigSzAy-wOcppEuaaHbk/view?usp=sharing" class="btn">View More..</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+		
+					<div class="col-md-6 col-lg-4">
+						<div class="service-box">
+							<div class="resume-wrap ftco-animate">
+								<i class="bx bxs-layer service-icon"></i>
+		
+								<h2 style="text-align: center;">Programming in Modern C++</h2>
+								<p class="mt-4">
+									This course in NPTEL equipped me with a comprehensive understanding of modern C++ programming techniques, including
+									object-oriented programming principles, template metaprogramming, and the use of standard library features(STL Functions).</p>
+								<div class="row justify-content-center mt-5">
+									<div class="btn-box service-btn">
+										<a href="https://drive.google.com/file/d/1v-elOOxuEpuz3sg2xzf_MI6ZvEWT8H8z/view?usp=sharing"
+											class="btn">View More..</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-4">
+						<div class="service-box">
+							<div class="resume-wrap ftco-animate">
+								<i class="bx bx-desktop service-icon"></i>
+					
+								<h2 style="text-align: center;">Business Intelligence and Analytics</h2>
+								<p class="mt-4">This course in NPTEL with a comprehensive understanding of data-driven insights, advanced analytics techniques, and expertise in data
+								visualization, I specialize in developing impactful business intelligence solutions that drive strategic decision-making
+								and deliver measurable results.</p>
+					
+								<div class="row justify-content-center mt-5">
+									<div class="btn-box service-btn">
+										<a href="https://drive.google.com/file/d/15Q7rKVhr7liM7moBIPcN_64RrZo5LAWV/view?usp=sharing" class="btn">View More..</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-4">
+						<div class="service-box">
+							<div class="resume-wrap ftco-animate">
+								<i class="bx bxs-certification service-icon"></i>
+					
+								<h2 style="text-align: center;">Affective Computing</h2>
+								<p class="mt-4">This NPTEL course delves into affective computing, encompassing various modalities such as text, audio, and visual
+								inputs, along with techniques for affect sensing. It emphasizes leveraging data-driven insights, advanced analytics
+								techniques, and data visualization to develop impactful business intelligence solutions.</p>
+					
+								<div class="row justify-content-center mt-5">
+									<div class="btn-box service-btn">
+										<a href="https://drive.google.com/file/d/1uMlin1axddoVgqRmxkKwOtoT6VhoPL-g/view?usp=sharing" class="btn">View More..</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-4">
+						<div class="service-box">
+							<div class="resume-wrap ftco-animate">
+								<i class="bx bx-desktop service-icon"></i>
+					
+								<h2 style="text-align: center;">Blockchain and its Applications</h2>
+								<p class="mt-4">Through the rigorous curriculum of the NPTEL blockchain course, I have acquired a deep understanding of distributed
+								ledger technology, smart contract development.I specialize in
+								architecting innovative blockchain solutions that foster transparency across diverse
+								industries.</p>
+					
+								<div class="row justify-content-center mt-5">
+									<div class="btn-box service-btn">
+										<a href="https://drive.google.com/file/d/1fa-55b4S73fm8JWswwg8Bk2DQxNIl6RC/view?usp=sharing" class="btn">View More..</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+		
+					<div class="col-md-6 col-lg-4">
+						<div class="service-box">
+							<div class="resume-wrap ftco-animate">
+								<i class="bx bxs-certification service-icon"></i>
+		
+								<h2 style="text-align: center;">Google Cloud Computing Foundations</h2>
+								<p class="mt-4">This course provided me with a comprehensive introduction to cloud computing
+									concepts and the Google Cloud Platform (GCP) ecosystem and helped me understanding storage,
+									virtualization and networking </p>
+								<div class="row justify-content-center mt-5">
+									<div class="btn-box service-btn">
+										<a href="https://drive.google.com/file/d/1AC8TY77fEFrncTj74cyg5B_nrkx7PPlT/view?usp=sharing"
+											class="btn">View More..</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+          
+		<div class="row justify-content-center mt-5">
+			<div class="col-md-6 text-center ftco-animate">
+				<p><a href="https://drive.google.com/file/d/1sqYn8ntyVnCibZlBUPoMP8duqVcXB_ir/view?usp=sharing" class="btn btn-primary py-4 px-5">Download CV</a></p>
+			</div>
+		</div>
+    </section>
+
+   
+
+    <section class="ftco-section" id="project-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Projects</h1>
+            <h2 class="mb-4">Projects</h2>
+            <p>Below are the sample Data Analytics projects on Python,React Native,Machine Learning,Data Science.</p>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/KAVINT21/Smart_Bus" class="block-20 zoom-effect" style="background-image: url('images/smart_bus.png');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/KAVINT21/Smart_Bus">Smart Bus</a></h3>
+                <p>Eliminated Conductor-based Ticket System using RFID Tags and implemented Recharging System,Automatic Braking System using Ultrasonic Sensors and IR Sensors</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/KAVINT21/Game-Development-using-OpenCV" class="block-20 zoom-effect" style="background-image: url('images/games.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/KAVINT21/Game-Development-using-OpenCV">Space-War Game Development using OpenCV</a></h3>
+                <p>Developed an engaging Space War game where players navigate a spaceship through a galactic battlefield using hand
+				gestures, leveraging the OpenCV hand tracking module by hand gestures.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry">
+              <a href="https://github.com/KAVINT21/YouTube_Data_Analysis" class="block-20 zoom-effect" style="background-image: url('images/proj_3.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/KAVINT21/YouTube_Data_Analysis">YouTube Data Analysis using API</a></h3>
+                <p>By scrutinizing factors impacting likes, subscribers, and views, this project aims to equip content creators with
+				data-driven strategies for channel growth and audience expansion.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+	<br>
+		<!-- added justify-content-center to center align the last two projects -->
+		<div class="row d-flex justify-content-center">  
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+					<a href="https://drive.google.com/file/d/1TSuHPYI4_0e7MJZ_QGAH9-VZlyuc_XbR/view?usp=sharing" class="block-20 zoom-effect"
+						style="background-image: url('images/grbot.jpg');">
+					</a>
+					<div class="text mt-3 float-right d-block">
+			
+						<h3 class="heading"><a href="https://drive.google.com/file/d/1TSuHPYI4_0e7MJZ_QGAH9-VZlyuc_XbR/view?usp=sharing">GR Bot(Grievance Relief Bot)</a></h3>
+						<p>Developed an application featuring voice-enabled user query resolution(powered
+						by Gemini), real-time tracking of TNEB officers, Stripe payment integration for
+						electricity bill payments.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="https://drive.google.com/file/d/1b0Vfp1jLgn9M1QY7YX0e5Z9LX_R5aI6n/view?usp=sharing" class="block-20 zoom-effect" style="background-image: url('images/proj_4.jpg');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="https://drive.google.com/file/d/1b0Vfp1jLgn9M1QY7YX0e5Z9LX_R5aI6n/view?usp=sharing">Dark Pattern Detector-DPBH Bot</a></h3>
+				  <p>Developed an extension to find Dark Patterns in the webpages and a NLP Voice enabled mobile app to analyse the privacy policies and capable of detecting the entire dark patterns from the website.</p>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+					<a href="https://drive.google.com/file/d/1W-DIEWl76LjC1cR_RenxlyDEViNCgNtt/view?usp=sharing" class="block-20 zoom-effect" style="background-image: url('images/recordingIcon.png');">
+					</a>
+					<div class="text mt-3 float-right d-block">
+			
+						<h3 class="heading"><a href="https://drive.google.com/file/d/1W-DIEWl76LjC1cR_RenxlyDEViNCgNtt/view?usp=sharing">Kurali</a></h3>
+						<p>Developed a React Native application capable of recognizing Tamil words through
+						user lip movements using LIP Net Framework(Tamil Lip Reading) with 95% accuracy.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+					<a href="https://github.com/KAVINT21/E-Yantra_Pharma_Bot_Project" class="block-20 zoom-effect"
+						style="background-image: url('images/medi_bot.png');">
+					</a>
+					<div class="text mt-3 float-right d-block">
+			
+						<h3 class="heading"><a href="https://github.com/KAVINT21/E-Yantra_Pharma_Bot_Project">Eyantra Pharma Bot</a></h3>
+						<p>Detected the position of Traffic Lights ,Medicines in the Stores and the Construction
+						areas and decoding the angle of arcuo markers and the information present in QR
+						Code using Computer Vision.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="https://github.com/KAVINT21/FarmBuddy-Application-using-React-Native" class="block-20 zoom-effect" style="background-image: url('images/bot_f.jpg');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="https://github.com/KAVINT21/FarmBuddy-Application-using-React-Native">Farm Buddy App</a></h3>
+				  <p>This app features an intelligent Bilingual chatbot(English,Tamil) capable of understanding and responding to various
+				plant growth-related queries users can able to buy plants using this app.</p>
+				</div>
+			  </div>
+			</div>
+		 </div>
+	  </div>
+    </section>
+
+	<section class="ftco-section" id="publications">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-5">
+				<div class="col-md-7 heading-section text-center ftco-animate">
+					<h1 class="big big-2">Publications</h1>
+					<h2 class="mb-4">Publications</h2>
+					<p>These accomplishments serve as milestones in my personal and professional development, and they
+						inspire me to pursue new
+						opportunities.
+					</p>
+				</div>
+			</div>
+
+		<div class="row">
+			<div class="underline"></div>
+			<br>
+			<br>
+
+			
+		
+		
+			<div class="col-md-6">
+				<div class="resume-wrap ftco-animate">
+					<span class="date">May 2022</span>
+					<h2>ParkSmart</h2>
+					<span class="position">International Conference on AI-ML Systems</span>
+					<p class="mt-4">Revolutionizing Parking with AI-Powered Multi-Storey Automation
+					<ul>
+						<li>The automatic parking system prototype is a groundbreaking solution aimed at addressing the challenges
+						associated with conventional parking systems.</li>
+						
+					</ul>
+					</p>
+					<div class="row justify-content-center mt-5">
+						<div class="btn-box service-btn">
+							<a href="https://drive.google.com/file/d/1mjZSweIv288N8DngvyPJcuucDKTfo_3N/view?usp=sharing"
+								class="btn">View More..</a>
+						</div>
+					</div>
+				</div>
+		
+			</div>
+			<div class="col-md-6">
+				<div class="resume-wrap ftco-animate">
+					<span class="date">Sep 2023</span>
+					<h2>T-BOT</h2>
+					<span class="position">Revolutionizing Theatrical Bot with AI Powered Automation</span>
+					<p class="mt-4">Asian Society for Innovation and Policy (ASIP)
+					<ul>
+						<li>Pioneered development of a groundbreaking theatrical mobile bot prototype, revolutionizing traditional food
+						delivery systems at theaters.</li>
+						
+					</ul>
+					</p>
+					<div class="row justify-content-center mt-5">
+						<div class="btn-box service-btn">
+							<a href="https://drive.google.com/file/d/1gr-3Rla4bIzoaCXTSwom1fw2z9yKDlSV/view?usp=sharing"
+								class="btn">View More..</a>
+						</div>
+					</div>
+				</div>
+			
+			</div>
+
+		</div>
+		<br>
+		<br>
+
+
+
+	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+      <div class="container">
+		<div class="row d-md-flex align-items-center">
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="3">0</strong>
+                <span>Achievements</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="9">0</strong>
+                <span>Projects</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="3">0</strong>
+                <span>Internships</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="5">0</strong>
+                <span>Certifications</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+	
+	  <div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)">
+			<!-- <div class="container"> -->
+				<div class="row justify-content-center">
+					<div class="col-md-7 ftco-animate text-center">
+						<h2>More projects on<span> Github  </span> </h2>
+						<div class="heading"> <h4> I love to solve real-world problems &amp; uncover hidden data stories </h4>
+						<br>
+						<p><a href="https://github.com/KAVINT21" class="btn btn-primary py-3 px-5">GitHub</a></p>
+						</div>
+					</div>
+				</div>
+			<!-- </div> -->
+		</div>
+	</section>
+
+
+
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Contact</h1>
+            <h2 class="mb-4">Contact Me</h2>
+            <p>Below are the details to reach out to me!</p>
+          </div>
+        </div>
+
+        <div class="row d-flex contact-info mb-5">
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-map-signs"></span>
+          		</div>
+          		<h3 class="mb-4">Address</h3>
+	            <p>Coimbatore, India</p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-phone2"></span>
+          		</div>
+          		<h3 class="mb-4">Contact Number</h3>
+	            <p><a href="tel://0101010101">+ 91 8300273688</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-paper-plane"></span>
+          		</div>
+          		<h3 class="mb-4">Email Address</h3>
+	            <p><a href="mailto:info@yoursite.com">thangavelkavin98@gmail.com</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-globe"></span>
+          		</div>
+          		<h3 class="mb-4">Resume</h3>
+	            <p><a href="https://drive.google.com/file/d/1sqYn8ntyVnCibZlBUPoMP8duqVcXB_ir/view?usp=sharing">Download here</a></p>
+	          </div>
+          </div>
+
+		  <div class="container">
+			<br>
+			<br>
+			<div class="row justify-content-center">
+				<div class="col-md-7 ftco-animate text-center">
+					<h2>Have a<span> Question?  </span> <a href="https://docs.google.com/forms/d/1wi2ZkADUidOECrK6wtB8UFyd0Dm_5d7mSv3ZNgoLdMY/" class="btn btn-primary py-3 px-5">Click Here</a> </h2>
+				</div>
+			</div>
+				<br>
+					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+					  <li class="ftco-animate normal-txt">Find me on  </li>
+					  <li class="ftco-animate"><a href="https://youtube.com/@user-bd3ny2hn6n?si=mp3KDnMJnA5vy3fp"><span class="icon-youtube"></span></a></li>
+					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/kavin-t-945181225/recent-activity/all/"><span class="icon-linkedin"></span></a></li>  
+					  <li class="ftco-animate"><a href="https://www.facebook.com/profile.php/?id=100041743876725"><span class="icon-facebook"></span></a></li>
+					</ul>
+				<br>
+		   </div>
+   </div>
+ </section>
+
+
+ 
+	
+    <footer class="ftco-footer ftco-section">
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-12 text-center">
+  
+			  
+			</div>
+		  </div>
+		</div>
+	  </footer>
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
